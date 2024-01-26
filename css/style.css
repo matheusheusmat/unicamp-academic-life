@@ -1,0 +1,165 @@
+body {
+    background-color: #191B1C;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: -23px;
+    left: -10px;
+    width: 100%;
+}
+
+
+a.offpage {
+    position: absolute;
+	left: -9999px;
+    background-color: white;
+}
+
+a.offpage:focus, a.offpage:active {
+    position:static;
+    left: auto;
+    background-color: white;
+}
+
+#main-title {
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    color: #B2ACA2;
+    height: 200px;
+    background-position: left;
+    background-size: 50%;
+    background-image: url(../images/unicamp-logo-branco.png);
+    background-repeat: no-repeat;
+    
+}
+
+header h1 {
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+
+header h2 {
+    position: relative;
+    left: 5%;
+}
+
+nav {
+    background-color: #73160f;
+    width: 102%;
+    color: #000000;
+    text-align: center;
+}
+
+nav li { 
+    padding: 2%;
+    display: inline-flex;
+    transition-property: background;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+
+header ul li:hover { 
+    background: #490f0b;
+}
+
+header ul li a:link, header ul li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    position: relative;
+    top: -53px;
+    left: -10px;
+    width: 100%;
+}
+
+img {
+    border: solid 2px #000000;
+    display:block;
+    margin: 0 auto;
+    padding: 3px;
+    border-radius: 5%;
+}
+
+main > img {
+    position: relative;
+    top: -10px;
+}
+
+main h3 {
+    position: relative;
+    top: 10px;
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 190%;
+    color: #BEB8B0;
+}
+
+h4 {
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+#main-content {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:115%;
+    color:rgb(209, 209, 209);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    column-count: 2;
+    column-gap:20px;
+    text-align: justify;
+}
+
+.grid > p {
+    text-align: justify;
+}
+
+.flex {
+    position: relative;
+    left: 50px;
+    display: flex;
+    text-align: justify;
+    height: 2040px;
+    width: 25%;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: right;
+    column-gap: 50px;
+}
+
+div.flex img:nth-child(2n) {
+    border-radius: 1px;
+}
+
+footer {
+    background-color:  #161718;
+    position: relative;
+    width: 100%;
+}
+
+footer h3 {
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: #BEB8B0;
+}
+
+footer ul {
+    list-style-type:"\1F517";
+}
+
+footer a:link, footer a:visited, footer p {
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #BEB8B0;
+}
+
+
